@@ -1,12 +1,12 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/notion-avatar-line-customized.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/notion-avatar-line-portrait.png">
-  <img src="assets/profile/notion-avatar-line-transparent.png" width="140" alt="André Neves Gomes Notion-Style Line Avatar" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/notion-avatar-line-portrait.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/notion-avatar-line-customized.png">
+  <img src="assets/profile/notion-avatar-line-transparent.png" width="140" alt="André Gomes Notion-Style Line Avatar" />
 </picture>
 
-# ANDRÉ NEVES GOMES
+# ANDRÉ GOMES
 `[ BUSINESS APPLICATION ANALYST & ENGINEER ]`
 
 [![Location](https://img.shields.io/badge/LOCATION-LISBON%20%2F%20PORTUGAL-000000?style=flat-square&labelColor=18181B)](https://github.com/andreneves-gomes)
@@ -21,7 +21,7 @@
 
 > **Architecting enterprise automation, custom software solutions, and internal platforms at scale.**
 
-I bridge business requirements and software engineering at **act digital**. My work focuses on removing operational friction through resilient backend scripting, autonomous web scraping infrastructure, and event-driven data pipelines.
+I bridge business requirements and software engineering at **[act digital]([url](https://actdigital.com/en/))**. My work focuses on removing operational friction through resilient backend scripting, autonomous web scraping infrastructure, and event-driven data pipelines.
 
 | Core Capability | System Scope & Focus |
 | :--- | :--- |
@@ -101,8 +101,7 @@ I bridge business requirements and software engineering at **act digital**. My w
 * **GitHub (Work):** [andreneves-gomes](https://github.com/andreneves-gomes)
 * **GitHub (Personal):** [andrenevesgomes](https://github.com/andrenevesgomes)
 * **Location:** Lisbon, Portugal
-* **Direct Contact:** `[ADD YOUR PREFERRED EMAIL ADDRESS]`
-
+  
 <div align="center">
 
 <br />
