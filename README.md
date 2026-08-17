@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/notion-avatar-line.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/notion-avatar-line.png">
-  <img src="assets/profile/notion-avatar-line.png" width="140" alt="André Neves Gomes Notion-Style Line Avatar" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/notion-avatar-line-customized.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/notion-avatar-line-portrait.png">
+  <img src="assets/profile/notion-avatar-line-transparent.png" width="140" alt="André Neves Gomes Notion-Style Line Avatar" />
 </picture>
 
 # ANDRÉ NEVES GOMES

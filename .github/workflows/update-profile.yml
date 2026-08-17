@@ -1,0 +1,24 @@
+name: Update Profile Timestamp
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Runs every Monday at midnight
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Timestamp
+        run: |
+          sed -i 's/`LAST_SYS_SYNC: .*/`LAST_SYS_SYNC: '"$(date -u +'%Y-%m-%d %H:%M UTC')"'/g' README.md
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "sys(ci): automated sync timestamp" && git push)
